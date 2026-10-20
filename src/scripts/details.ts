@@ -1,4 +1,4 @@
-import cv from '@cv'
+import { cvEs as cv } from '@/i18n'
 import PhotoSwipe from 'photoswipe'
 
 const $$ = <T extends Element = HTMLElement>(selector: string) => Array.from(document.querySelectorAll<T>(selector))
