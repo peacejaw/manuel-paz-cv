@@ -1,5 +1,5 @@
 ---
-import cv from '@cv'
+import { cvEs as cv } from '@/i18n'
 type Video = { src: string; poster: string; caption: string }
 ---
 {cv.timeline.map(item=><dialog class="case-dialog" id={`case-${item.id}`} aria-labelledby={`case-title-${item.id}`}>
