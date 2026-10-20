@@ -1,0 +1,1204 @@
+{
+  "basics": {
+    "name": "Manuel Paz",
+    "label": "Estudiante de Ingeniería Comercial",
+    "image": "/media/manuel-paz.jpeg",
+    "email": "mpazq@fen.uchile.cl",
+    "phone": "+56 9 7895 1100",
+    "url": "https://manuel-paz-trayectoria.zippyjelly9.chatgpt.site",
+    "summary": "Curso cuarto año en la Universidad de Chile. Tengo experiencia en Wealth Management en SURA Investments, emprendimiento en e-commerce y liderazgo como cofundador de FEN Investment Group. Me interesan las inversiones, el análisis de empresas y el desarrollo comercial.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mpazq",
+        "url": "https://www.linkedin.com/in/mpazq/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SURA Investments",
+      "position": "Wealth Management Sales Intern",
+      "url": "",
+      "startDate": "2026-01-01",
+      "endDate": "2026-06-30",
+      "summary": "Desarrollé reportes personalizados para clientes y asesores de inversión. Automaticé tres procesos con Excel, Power Automate y Power BI, reduciendo más de diez horas semanales de trabajo administrativo.",
+      "highlights": [],
+      "caseId": "sura"
+    },
+    {
+      "name": "FEN Investment Group",
+      "position": "Cofundador y director | Área Trading",
+      "url": "https://feninvestmentgroup.com/",
+      "startDate": "2025-06-01",
+      "endDate": null,
+      "summary": "Cofundador y director del área Trading. Trabajo en alianzas, comunicaciones y educación financiera. Coordiné el Torneo de Portafolio FEN y creé el Alpha Trading Challenge 2026 junto a XTB.",
+      "highlights": [],
+      "caseId": "fig"
+    },
+    {
+      "name": "E-commerce D2C",
+      "position": "Fundador",
+      "url": "",
+      "startDate": "2020-06-01",
+      "endDate": "2023-08-31",
+      "summary": "Fundé y escalé una operación D2C en Shopify, con ventas acumuladas superiores a CLP 280 millones. Gestioné adquisición de clientes, proveedores y logística, con un equipo de dos personas.",
+      "highlights": [],
+      "caseId": "primera-tienda"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Chile",
+      "url": "https://fen.uchile.cl/",
+      "area": "Ingeniería Comercial, Licenciatura en Administración de Empresas. Cuarto año.",
+      "studyType": "Pregrado",
+      "startDate": "2023-03-01",
+      "endDate": null,
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Análisis y automatización",
+      "level": "",
+      "keywords": [
+        "Excel",
+        "Power BI",
+        "Power Automate",
+        "PowerPoint",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Inversiones",
+      "level": "",
+      "keywords": [
+        "Bloomberg Terminal",
+        "Análisis fundamental",
+        "Análisis técnico",
+        "GARP"
+      ]
+    },
+    {
+      "name": "Comercial y marketing",
+      "level": "",
+      "keywords": [
+        "Shopify",
+        "Meta Ads",
+        "Google Ads",
+        "TikTok Ads",
+        "Klaviyo"
+      ]
+    },
+    {
+      "name": "Idiomas",
+      "level": "",
+      "keywords": [
+        "Español nativo",
+        "Inglés B2"
+      ]
+    },
+    {
+      "name": "Formación complementaria",
+      "level": "",
+      "keywords": [
+        "Bloomberg Market Concepts",
+        "Claude 101",
+        "Bloomberg Global Trading Challenge 2025 y 2026 (en curso)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portafolio personal en eToro",
+      "url": "",
+      "caseId": "primeras-inversiones",
+      "description": "Análisis fundamental y técnico aplicado a un portafolio personal. Seguimiento de empresas, divisas y criptomonedas.",
+      "highlights": [
+        "Análisis de empresas",
+        "Gestión de riesgo"
+      ],
+      "isActive": false,
+      "github": "",
+      "period": "2021 - 2023"
+    },
+    {
+      "name": "Portafolio con enfoque GARP",
+      "url": "",
+      "caseId": "garp",
+      "description": "Gestión de un nuevo portafolio desde enero de 2025, con foco en crecimiento a un precio razonable.",
+      "highlights": [
+        "Valoración",
+        "Seguimiento de inversiones"
+      ],
+      "isActive": false,
+      "github": "",
+      "period": "2025 - 2026"
+    },
+    {
+      "name": "Importaciones y desarrollo de negocio",
+      "url": "",
+      "caseId": "importaciones",
+      "description": "Experiencia con inventario propio, proveedores internacionales y planes de marketing para Brauden y Brikku. Constitución de Atlaz SpA en 2023.",
+      "highlights": [
+        "E-commerce",
+        "Operación comercial"
+      ],
+      "isActive": false,
+      "github": "",
+      "period": "2021 - 2023"
+    }
+  ],
+  "volunteer": [],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "categories": [
+    {
+      "id": "all",
+      "label": "Toda la historia"
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-commerce"
+    },
+    {
+      "id": "inversiones",
+      "label": "Inversiones"
+    },
+    {
+      "id": "emprendimiento",
+      "label": "Emprendimiento"
+    },
+    {
+      "id": "experiencia",
+      "label": "Experiencia profesional"
+    },
+    {
+      "id": "comunidad",
+      "label": "FEN Investment Group"
+    },
+    {
+      "id": "formacion",
+      "label": "Formación"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "edv",
+      "date": "",
+      "period": "Educación financiera",
+      "year": "",
+      "category": "formacion",
+      "title": "Educación financiera para colegios",
+      "role": "Charlas de educación financiera para escolares",
+      "summary": "Una jornada de educación financiera con estudiantes de enseñanza media en un entorno de aprendizaje práctico.",
+      "paragraphs": [
+        "Participé en las charlas de educación financiera para estudiantes de enseñanza media, acercando conceptos de presupuesto personal, inversiones y mercados."
+      ],
+      "highlights": [
+        "Charlas y actividades prácticas para escolares.",
+        "Introducción al presupuesto personal y las inversiones."
+      ],
+      "media": [
+        {
+          "src": "/media/colegios-1.webp",
+          "caption": "Charla de educación financiera para escolares.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/colegios-2.webp",
+          "caption": "Charla de educación financiera para escolares.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "metrics": [],
+      "links": [],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "betterplan",
+      "date": "",
+      "period": "FEN Investment Group",
+      "year": "",
+      "category": "comunidad",
+      "title": "Charla con Betterplan",
+      "role": "Charla con Betterplan",
+      "summary": "",
+      "paragraphs": [],
+      "highlights": [],
+      "media": [
+        {
+          "src": "/media/betterplan-1.webp",
+          "caption": "Charla con Betterplan.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "src": "/media/betterplan-2.webp",
+          "caption": "Charla con Betterplan.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "metrics": [],
+      "links": [],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "roberto-bonifaz",
+      "date": "",
+      "period": "FEN Investment Group",
+      "year": "",
+      "category": "comunidad",
+      "title": "Charla con Roberto Bonifaz",
+      "role": "Charla con Roberto Bonifaz",
+      "summary": "",
+      "paragraphs": [],
+      "highlights": [],
+      "media": [
+        {
+          "src": "/media/roberto-bonifaz.webp",
+          "caption": "Encuentro con Roberto Bonifaz.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 2560,
+          "height": 1920
+        }
+      ],
+      "metrics": [],
+      "links": [],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "cfa-clubes",
+      "date": "",
+      "period": "FEN Investment Group",
+      "year": "",
+      "category": "comunidad",
+      "title": "Encuentro de clubes CFA",
+      "role": "Encuentro de clubes CFA",
+      "summary": "",
+      "paragraphs": [],
+      "highlights": [],
+      "media": [
+        {
+          "src": "/media/cfa-clubes-1.webp",
+          "caption": "Encuentro de clubes CFA.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/media/cfa-clubes-2.webp",
+          "caption": "Encuentro de clubes CFA.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "metrics": [],
+      "links": [],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "primera-tienda",
+      "date": "2020-06",
+      "period": "2020 - 2023",
+      "year": "2020",
+      "category": "ecommerce",
+      "title": "Mi primera tienda online",
+      "role": "Fundador de e-commerce D2C",
+      "summary": "Empecé con CLP 60.000 y una primera venta. Terminé gestionando tiendas, publicidad, proveedores y atención al cliente.",
+      "paragraphs": [
+        "En plena pandemia investigué cómo vender por internet y empecé con un préstamo de CLP 60.000 de mi mamá. La primera venta llegó cuando se estaba acabando el presupuesto de publicidad.",
+        "Entre junio de 2020 y agosto de 2023 desarrollé una operación de e-commerce D2C en Shopify. Trabajé en adquisición de clientes, negociación con proveedores, logística y servicio al cliente, con un equipo de dos personas.",
+        "La operación evolucionó con distintas tiendas y nuevos períodos de venta. En marzo de 2023 procesé CLP 16.238.057 en 415 cobros a través de Mercado Pago; en abril, CLP 15.383.618 en 397 cobros.",
+        "Esta experiencia financió mi estadía en Santiago durante los primeros años de universidad. También me acercó a las preguntas que hoy más me interesan: cómo funciona una empresa y qué crea valor."
+      ],
+      "highlights": [
+        "Tiendas y páginas de producto en Shopify.",
+        "Adquisición con Meta Ads, Google Ads y TikTok Ads.",
+        "Fidelización por email y SMS con Klaviyo.",
+        "Seguimiento de conversión, pedidos y presupuesto publicitario."
+      ],
+      "media": [
+        {
+          "src": "/media/shopify-semana.webp",
+          "caption": "Panel de Shopify: CLP 9.553.788 en ventas durante el período visible.",
+          "date": "15 al 22 de mayo de 2021",
+          "kind": "registro",
+          "width": 1236,
+          "height": 723
+        },
+        {
+          "src": "/media/shopify-dia.webp",
+          "caption": "Panel de Shopify: CLP 1.275.190 en ventas y 72 pedidos en un día.",
+          "date": "22 de mayo de 2021",
+          "kind": "registro",
+          "width": 1680,
+          "height": 633
+        },
+        {
+          "src": "/media/stock.webp",
+          "caption": "Registro del inventario de productos importados.",
+          "date": "Archivo de e-commerce",
+          "kind": "fotografía",
+          "width": 700,
+          "height": 1244
+        },
+        {
+          "src": "/media/mercadopago-marzo-2023.webp",
+          "caption": "Mercado Pago: CLP 16.238.057 en volumen de ventas y 415 cobros.",
+          "date": "Marzo de 2023",
+          "kind": "registro",
+          "width": 1317,
+          "height": 655
+        },
+        {
+          "src": "/media/mercadopago-abril-2023.webp",
+          "caption": "Mercado Pago: CLP 15.383.618 en volumen de ventas y 397 cobros.",
+          "date": "Abril de 2023",
+          "kind": "registro",
+          "width": 1262,
+          "height": 637
+        }
+      ],
+      "metrics": [
+        {
+          "value": "+280 MM",
+          "label": "CLP en ventas acumuladas"
+        },
+        {
+          "value": "$9.553.788",
+          "label": "CLP en ventas registradas"
+        }
+      ],
+      "links": [],
+      "featured": true,
+      "related": [
+        "importaciones",
+        "atlaz"
+      ],
+      "videos": []
+    },
+    {
+      "id": "primeras-inversiones",
+      "date": "2021-02",
+      "period": "2021 - 2023",
+      "year": "2021",
+      "category": "inversiones",
+      "title": "Mis primeras inversiones en eToro",
+      "role": "Portafolio personal en eToro",
+      "summary": "Comencé a invertir y a estudiar acciones, estados financieros y mercados por cuenta propia.",
+      "paragraphs": [
+        "Mi interés por las inversiones apareció a principios de 2021. Pasé de investigar criptomonedas a estudiar acciones, divisas, estados financieros y el comportamiento de las empresas.",
+        "Entre 2021 y 2023 gestioné un portafolio personal en eToro, bajo el perfil Peace02, aplicando análisis fundamental y técnico. Tuve exposición a empresas como Apple, Tesla y Palantir, además de criptomonedas como Bitcoin, Ethereum y Cardano.",
+        "Trabajé con posiciones de compra y venta, acciones y CFDs. Las operaciones ganadoras y perdedoras me permitieron aprender sobre volatilidad, tamaño de posición y gestión del riesgo."
+      ],
+      "highlights": [
+        "Análisis fundamental y técnico.",
+        "Seguimiento de empresas, divisas y criptomonedas.",
+        "Registro de operaciones y gestión del riesgo."
+      ],
+      "media": [
+        {
+          "src": "/media/etoro-2021-76.webp",
+          "caption": "Mi perfil Peace02 en eToro: posiciones en Cardano, Ethereum, CrowdStrike, NIO, Tesla y Apple.",
+          "date": "25 de marzo de 2021",
+          "kind": "registro",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/media/etoro-2021-81.webp",
+          "caption": "Portafolio en eToro: posiciones en Nano Dimension, Deere, Apple, Tesla, Proofpoint y Dropbox.",
+          "date": "25 de marzo de 2021",
+          "kind": "registro",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "metrics": [
+        {
+          "value": "US$9.400",
+          "label": "capital invertido en eToro al 25 de marzo de 2021"
+        }
+      ],
+      "links": [],
+      "featured": false,
+      "related": [
+        "garp"
+      ],
+      "videos": []
+    },
+    {
+      "id": "importaciones",
+      "date": "2022-08",
+      "period": "2021 - 2022",
+      "year": "2022",
+      "category": "emprendimiento",
+      "title": "Detrás de una venta, toda una operación",
+      "role": "Importaciones y desarrollo de marca",
+      "summary": "Probé la importación con inventario propio y desarrollé planes de marketing para Brauden y Brikku.",
+      "paragraphs": [
+        "Junto a un socio exploré un modelo con productos importados e inventario propio. La operación implicó coordinar compras, proveedores y logística, además de vender.",
+        "En Brauden trabajé en páginas de producto, campañas y atención a clientes. En Brikku desarrollé una propuesta comercial con análisis de competencia, segmentación, objetivos y métricas.",
+        "La complejidad logística y los tiempos de reposición fueron aprendizajes importantes. Después de esa etapa volví a operar de forma individual."
+      ],
+      "highlights": [
+        "Negociación y coordinación con proveedores.",
+        "Planificación de inventario y compras internacionales.",
+        "Propuestas de marketing y análisis de competencia."
+      ],
+      "media": [
+        {
+          "src": "/media/stock.webp",
+          "caption": "Registro del inventario de productos importados.",
+          "date": "Archivo de e-commerce",
+          "kind": "fotografía",
+          "width": 700,
+          "height": 1244
+        },
+        {
+          "src": "/media/shopify-semana.webp",
+          "caption": "Panel de Shopify: CLP 9.553.788 en ventas durante el período visible.",
+          "date": "15 al 22 de mayo de 2021",
+          "kind": "registro",
+          "width": 1236,
+          "height": 723
+        }
+      ],
+      "metrics": [],
+      "links": [],
+      "featured": false,
+      "related": [
+        "atlaz"
+      ],
+      "videos": []
+    },
+    {
+      "id": "atlaz",
+      "date": "2023-01-11",
+      "period": "Enero de 2023",
+      "year": "2023",
+      "category": "emprendimiento",
+      "title": "Formalizar lo que estaba construyendo",
+      "role": "Constitución e inicio de actividades de Atlaz SpA",
+      "summary": "Constituí una sociedad y formalicé la actividad de comercio electrónico.",
+      "paragraphs": [
+        "Me incorporé a la sociedad el 4 de enero e inicié actividades el 11 de enero de 2023.",
+        "Durante esta etapa llevé control de compras internacionales y trabajé con documentación comercial y tributaria vinculada a la operación."
+      ],
+      "highlights": [
+        "Constitución de sociedad y representación legal.",
+        "Inicio de actividades de comercio electrónico.",
+        "Registro de compras y coordinación administrativa."
+      ],
+      "media": [],
+      "metrics": [],
+      "links": [],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "universidad",
+      "date": "2023-03",
+      "period": "Marzo de 2023 - actualidad",
+      "year": "2023",
+      "category": "formacion",
+      "title": "Elegí profundizar en negocios y finanzas",
+      "role": "Ingeniería Comercial, Universidad de Chile",
+      "summary": "Ingresé a la FEN para dar una base académica a las preguntas que habían nacido emprendiendo e invirtiendo.",
+      "paragraphs": [
+        "Actualmente curso cuarto año de Ingeniería Comercial en la Universidad de Chile, con Licenciatura en Administración de Empresas.",
+        "En 2023 cerré mi etapa de e-commerce para concentrarme en los estudios. El aprendizaje práctico del negocio se convirtió en una base para estudiar administración y finanzas."
+      ],
+      "highlights": [
+        "Facultad de Economía y Negocios, Universidad de Chile.",
+        "Ingreso en marzo de 2023.",
+        "Egreso previsto en diciembre de 2027."
+      ],
+      "media": [],
+      "metrics": [],
+      "links": [
+        {
+          "label": "Universidad de Chile",
+          "url": "https://fen.uchile.cl/"
+        }
+      ],
+      "featured": false,
+      "related": [
+        "edv"
+      ],
+      "videos": []
+    },
+    {
+      "id": "garp",
+      "date": "2025-01",
+      "period": "2025 - 2026",
+      "year": "2025",
+      "category": "inversiones",
+      "title": "Portafolio con enfoque GARP",
+      "role": "Portafolio personal con enfoque GARP",
+      "summary": "Retomé la gestión de un portafolio personal, con foco en crecimiento a un precio razonable.",
+      "paragraphs": [
+        "Desde enero de 2025 gestiono un nuevo portafolio con estrategia GARP (Growth at a Reasonable Price). Mi interés está en entender el negocio, sus perspectivas de crecimiento y el precio que pago por ellas.",
+        "En Racional, mi retorno acumulado de 2025 fue de 39,35% al 28 de diciembre. En 2026 continúo desarrollando el análisis de compañías, la valoración y el seguimiento de posiciones."
+      ],
+      "highlights": [
+        "Estudio de compañías y fundamentos.",
+        "Crecimiento y valoración como criterios de análisis.",
+        "Seguimiento de posiciones y riesgo."
+      ],
+      "media": [
+        {
+          "src": "/media/racional-retorno-2025.webp",
+          "caption": "Mi retorno 2025 en Racional: 39,35% acumulado en el año.",
+          "date": "Datos al 28 de diciembre de 2025",
+          "kind": "registro",
+          "width": 1306,
+          "height": 596
+        }
+      ],
+      "metrics": [
+        {
+          "value": "+39,35%",
+          "label": "retorno 2025 en Racional al 28 de diciembre"
+        }
+      ],
+      "links": [],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "fig",
+      "date": "2025-06",
+      "period": "Junio de 2025 - actualidad",
+      "year": "2025",
+      "category": "comunidad",
+      "title": "Aprender de inversiones, en comunidad",
+      "role": "Cofundador y director de FEN Investment Group",
+      "summary": "Cofundé FIG y asumí responsabilidades en Trading, comunicaciones, alianzas y su primera presencia digital.",
+      "paragraphs": [
+        "Cofundé FEN Investment Group en la Facultad de Economía y Negocios de la Universidad de Chile. He trabajado en marketing, difusión, alianzas y educación financiera.",
+        "Dirijo el área de Trading y creé la web original del club. Junto al equipo impulso torneos, charlas y encuentros con la industria."
+      ],
+      "highlights": [
+        "Cofundación y dirección del club.",
+        "Dirección del área Trading.",
+        "Comunicaciones, difusión y relaciones con la industria.",
+        "Creación de la primera web de FIG."
+      ],
+      "media": [
+        {
+          "src": "/media/fig-inauguracion.webp",
+          "caption": "Inauguración de FEN Investment Group.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 800
+        }
+      ],
+      "metrics": [],
+      "links": [
+        {
+          "label": "Web de FEN Investment Group",
+          "url": "https://feninvestmentgroup.com/"
+        },
+        {
+          "label": "Instagram del club",
+          "url": "https://www.instagram.com/fen.investment.group/"
+        },
+        {
+          "label": "LinkedIn del club",
+          "url": "https://www.linkedin.com/company/fen-investment-group/"
+        }
+      ],
+      "featured": true,
+      "related": [
+        "torneo-portafolio",
+        "alpha",
+        "betterplan",
+        "roberto-bonifaz",
+        "cfa-clubes",
+        "edv"
+      ],
+      "videos": []
+    },
+    {
+      "id": "sura",
+      "date": "2026-01",
+      "period": "Enero - junio de 2026",
+      "year": "2026",
+      "category": "experiencia",
+      "title": "Datos que ayudan a conversar con clientes",
+      "role": "Wealth Management Sales Intern, SURA Investments",
+      "summary": "Trabajé en reportes personalizados, automatización y presentaciones para apoyar al equipo de Wealth Management.",
+      "paragraphs": [
+        "Junto a mi jefatura desarrollé un prototipo funcional de presentaciones personalizadas en PowerPoint, integrando datos internos y Power BI. El objetivo fue automatizar reportes de composición de inversiones, rentabilidad y comisiones para empresas y asesores.",
+        "Automaticé tres procesos con Excel, Power Automate y Power BI. También elaboré y presenté más de diez informes y presentaciones para comités ejecutivos y líderes de área."
+      ],
+      "highlights": [
+        "Reportes de inversiones adaptados a clientes y asesores.",
+        "Automatización con Excel, Power Automate y Power BI.",
+        "Presentación de avances y propuestas de mejora."
+      ],
+      "media": [
+        {
+          "src": "/media/sura-practica-1.webp",
+          "caption": "Primeros días de práctica en SURA Investments.",
+          "date": "13 de enero de 2026",
+          "kind": "fotografía",
+          "width": 2316,
+          "height": 3088
+        },
+        {
+          "src": "/media/sura-practica-2.webp",
+          "caption": "Bienvenida a SURA Investments.",
+          "date": "15 de enero de 2026",
+          "kind": "fotografía",
+          "width": 2160,
+          "height": 3840
+        },
+        {
+          "src": "/media/sura-practica-3.webp",
+          "caption": "Espacio de trabajo durante la práctica.",
+          "date": "27 de enero de 2026",
+          "kind": "fotografía",
+          "width": 2560,
+          "height": 3413
+        },
+        {
+          "src": "/media/sura-practica-4.webp",
+          "caption": "Oficinas de SURA Investments.",
+          "date": "6 de febrero de 2026",
+          "kind": "fotografía",
+          "width": 2268,
+          "height": 4032
+        },
+        {
+          "src": "/media/sura-practica-5.webp",
+          "caption": "Planificación durante la práctica.",
+          "date": "10 de febrero de 2026",
+          "kind": "fotografía",
+          "width": 2268,
+          "height": 4032
+        },
+        {
+          "src": "/media/sura-practica-6.webp",
+          "caption": "Encuentro con el equipo de SURA Investments.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/sura-practica-7.webp",
+          "caption": "Oficinas durante mi práctica en SURA Investments.",
+          "date": "17 de junio de 2026",
+          "kind": "fotografía",
+          "width": 2268,
+          "height": 4032
+        }
+      ],
+      "metrics": [
+        {
+          "value": "3",
+          "label": "procesos automatizados"
+        },
+        {
+          "value": "+10 h",
+          "label": "semanales de trabajo administrativo reducido"
+        }
+      ],
+      "links": [],
+      "featured": true,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "torneo-portafolio",
+      "date": "2026-05",
+      "period": "Mayo - noviembre de 2026",
+      "year": "2026",
+      "category": "comunidad",
+      "title": "Una competencia para aplicar lo aprendido",
+      "role": "Coordinación y comunicaciones, Torneo de Portafolio FEN",
+      "summary": "Participé en la coordinación del torneo con BlackRock y Banco Itaú, junto al equipo del club.",
+      "paragraphs": [
+        "Coordiné iniciativas del Torneo de Portafolio FEN con BlackRock y Banco Itaú. El trabajo reúne construcción de carteras, seguimiento con Bloomberg y presentación de decisiones de inversión.",
+        "Trabajé en la comunicación, difusión y coordinación del torneo junto al equipo de Portafolio y la presidencia de FIG."
+      ],
+      "highlights": [
+        "Coordinación con el equipo y las organizaciones participantes.",
+        "Comunicación y difusión del torneo.",
+        "Competencia de carteras simuladas con Bloomberg Terminal."
+      ],
+      "media": [
+        {
+          "src": "/media/torneo-inauguracion-1.webp",
+          "caption": "Inauguración del Torneo de Portafolio FEN.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/torneo-inauguracion-2.webp",
+          "caption": "Inauguración del Torneo de Portafolio FEN.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "src": "/media/torneo-inauguracion-3.webp",
+          "caption": "Inauguración del Torneo de Portafolio FEN.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/torneo-inauguracion-4.webp",
+          "caption": "Inauguración del Torneo de Portafolio FEN.",
+          "date": "",
+          "kind": "fotografía",
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "metrics": [],
+      "links": [
+        {
+          "label": "Conocer el torneo",
+          "url": "https://feninvestmentgroup.com/torneo/index.html"
+        }
+      ],
+      "featured": false,
+      "related": [],
+      "videos": []
+    },
+    {
+      "id": "alpha",
+      "date": "2026-10-05",
+      "period": "Octubre - noviembre de 2026",
+      "year": "2026",
+      "category": "comunidad",
+      "title": "Llevar el trading a más estudiantes",
+      "role": "Creador y coordinador del Alpha Trading Challenge 2026",
+      "summary": "Creé y coordiné el torneo junto a XTB, conectando formación y una competencia interuniversitaria.",
+      "paragraphs": [
+        "Creé y coordiné el Alpha Trading Challenge 2026 junto a XTB desde el área Trading de FIG, con más de 700 participantes a nivel nacional.",
+        "El kick-off se realizó el 5 de octubre. El torneo se desarrolla entre el 11 de octubre y el 6 de noviembre de 2026."
+      ],
+      "highlights": [
+        "Diseño y coordinación de la iniciativa junto a XTB.",
+        "Difusión y convocatoria interuniversitaria.",
+        "Conexión entre talleres, comunidad y competencia."
+      ],
+      "media": [
+        {
+          "src": "/media/alpha-kickoff-1.webp",
+          "caption": "Participantes del kick-off del Alpha Trading Challenge 2026.",
+          "date": "5 de octubre de 2026",
+          "kind": "fotografía",
+          "width": 2560,
+          "height": 1920
+        },
+        {
+          "src": "/media/alpha-kickoff-2.webp",
+          "caption": "Panel del Alpha Trading Challenge 2026.",
+          "date": "5 de octubre de 2026",
+          "kind": "fotografía",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "/media/alpha-kickoff-3.webp",
+          "caption": "Encuentro durante el kick-off del Alpha Trading Challenge 2026.",
+          "date": "5 de octubre de 2026",
+          "kind": "fotografía",
+          "width": 2560,
+          "height": 3413
+        }
+      ],
+      "metrics": [],
+      "links": [
+        {
+          "label": "Área Trading de FIG",
+          "url": "https://feninvestmentgroup.com/trading/index.html"
+        }
+      ],
+      "featured": true,
+      "related": [],
+      "videos": []
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/media/colegios-1.webp",
+      "caption": "Charla de educación financiera para escolares.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 720,
+      "group": "formacion",
+      "event": "edv"
+    },
+    {
+      "src": "/media/colegios-2.webp",
+      "caption": "Charla de educación financiera para escolares.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 960,
+      "group": "formacion",
+      "event": "edv"
+    },
+    {
+      "src": "/media/betterplan-1.webp",
+      "caption": "Charla con Betterplan.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 720,
+      "height": 1280,
+      "group": "comunidad",
+      "event": "betterplan"
+    },
+    {
+      "src": "/media/betterplan-2.webp",
+      "caption": "Charla con Betterplan.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 720,
+      "height": 1280,
+      "group": "comunidad",
+      "event": "betterplan"
+    },
+    {
+      "src": "/media/roberto-bonifaz.webp",
+      "caption": "Encuentro con Roberto Bonifaz.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 2560,
+      "height": 1920,
+      "group": "comunidad",
+      "event": "roberto-bonifaz"
+    },
+    {
+      "src": "/media/cfa-clubes-1.webp",
+      "caption": "Encuentro de clubes CFA.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1200,
+      "height": 1600,
+      "group": "comunidad",
+      "event": "cfa-clubes"
+    },
+    {
+      "src": "/media/cfa-clubes-2.webp",
+      "caption": "Encuentro de clubes CFA.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 720,
+      "group": "comunidad",
+      "event": "cfa-clubes"
+    },
+    {
+      "src": "/media/shopify-semana.webp",
+      "caption": "Panel de Shopify: CLP 9.553.788 en ventas durante el período visible.",
+      "date": "15 al 22 de mayo de 2021",
+      "kind": "registro",
+      "width": 1236,
+      "height": 723,
+      "group": "ecommerce",
+      "event": "primera-tienda"
+    },
+    {
+      "src": "/media/shopify-dia.webp",
+      "caption": "Panel de Shopify: CLP 1.275.190 en ventas y 72 pedidos en un día.",
+      "date": "22 de mayo de 2021",
+      "kind": "registro",
+      "width": 1680,
+      "height": 633,
+      "group": "ecommerce",
+      "event": "primera-tienda"
+    },
+    {
+      "src": "/media/stock.webp",
+      "caption": "Registro del inventario de productos importados.",
+      "date": "Archivo de e-commerce",
+      "kind": "fotografía",
+      "width": 700,
+      "height": 1244,
+      "group": "ecommerce",
+      "event": "primera-tienda"
+    },
+    {
+      "src": "/media/mercadopago-marzo-2023.webp",
+      "caption": "Mercado Pago: CLP 16.238.057 en volumen de ventas y 415 cobros.",
+      "date": "Marzo de 2023",
+      "kind": "registro",
+      "width": 1317,
+      "height": 655,
+      "group": "ecommerce",
+      "event": "primera-tienda"
+    },
+    {
+      "src": "/media/mercadopago-abril-2023.webp",
+      "caption": "Mercado Pago: CLP 15.383.618 en volumen de ventas y 397 cobros.",
+      "date": "Abril de 2023",
+      "kind": "registro",
+      "width": 1262,
+      "height": 637,
+      "group": "ecommerce",
+      "event": "primera-tienda"
+    },
+    {
+      "src": "/media/etoro-2021-76.webp",
+      "caption": "Mi perfil Peace02 en eToro: posiciones en Cardano, Ethereum, CrowdStrike, NIO, Tesla y Apple.",
+      "date": "25 de marzo de 2021",
+      "kind": "registro",
+      "width": 1920,
+      "height": 1080,
+      "group": "inversiones",
+      "event": "primeras-inversiones"
+    },
+    {
+      "src": "/media/etoro-2021-81.webp",
+      "caption": "Portafolio en eToro: posiciones en Nano Dimension, Deere, Apple, Tesla, Proofpoint y Dropbox.",
+      "date": "25 de marzo de 2021",
+      "kind": "registro",
+      "width": 1920,
+      "height": 1080,
+      "group": "inversiones",
+      "event": "primeras-inversiones"
+    },
+    {
+      "src": "/media/stock.webp",
+      "caption": "Registro del inventario de productos importados.",
+      "date": "Archivo de e-commerce",
+      "kind": "fotografía",
+      "width": 700,
+      "height": 1244,
+      "group": "emprendimiento",
+      "event": "importaciones"
+    },
+    {
+      "src": "/media/shopify-semana.webp",
+      "caption": "Panel de Shopify: CLP 9.553.788 en ventas durante el período visible.",
+      "date": "15 al 22 de mayo de 2021",
+      "kind": "registro",
+      "width": 1236,
+      "height": 723,
+      "group": "emprendimiento",
+      "event": "importaciones"
+    },
+    {
+      "src": "/media/racional-retorno-2025.webp",
+      "caption": "Mi retorno 2025 en Racional: 39,35% acumulado en el año.",
+      "date": "Datos al 28 de diciembre de 2025",
+      "kind": "registro",
+      "width": 1306,
+      "height": 596,
+      "group": "inversiones",
+      "event": "garp"
+    },
+    {
+      "src": "/media/fig-inauguracion.webp",
+      "caption": "Inauguración de FEN Investment Group.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 800,
+      "group": "comunidad",
+      "event": "fig"
+    },
+    {
+      "src": "/media/sura-practica-1.webp",
+      "caption": "Primeros días de práctica en SURA Investments.",
+      "date": "13 de enero de 2026",
+      "kind": "fotografía",
+      "width": 2316,
+      "height": 3088,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/sura-practica-2.webp",
+      "caption": "Bienvenida a SURA Investments.",
+      "date": "15 de enero de 2026",
+      "kind": "fotografía",
+      "width": 2160,
+      "height": 3840,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/sura-practica-3.webp",
+      "caption": "Espacio de trabajo durante la práctica.",
+      "date": "27 de enero de 2026",
+      "kind": "fotografía",
+      "width": 2560,
+      "height": 3413,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/sura-practica-4.webp",
+      "caption": "Oficinas de SURA Investments.",
+      "date": "6 de febrero de 2026",
+      "kind": "fotografía",
+      "width": 2268,
+      "height": 4032,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/sura-practica-5.webp",
+      "caption": "Planificación durante la práctica.",
+      "date": "10 de febrero de 2026",
+      "kind": "fotografía",
+      "width": 2268,
+      "height": 4032,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/sura-practica-6.webp",
+      "caption": "Encuentro con el equipo de SURA Investments.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 720,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/sura-practica-7.webp",
+      "caption": "Oficinas durante mi práctica en SURA Investments.",
+      "date": "17 de junio de 2026",
+      "kind": "fotografía",
+      "width": 2268,
+      "height": 4032,
+      "group": "experiencia",
+      "event": "sura"
+    },
+    {
+      "src": "/media/torneo-inauguracion-1.webp",
+      "caption": "Inauguración del Torneo de Portafolio FEN.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 720,
+      "group": "comunidad",
+      "event": "torneo-portafolio"
+    },
+    {
+      "src": "/media/torneo-inauguracion-2.webp",
+      "caption": "Inauguración del Torneo de Portafolio FEN.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 720,
+      "height": 1280,
+      "group": "comunidad",
+      "event": "torneo-portafolio"
+    },
+    {
+      "src": "/media/torneo-inauguracion-3.webp",
+      "caption": "Inauguración del Torneo de Portafolio FEN.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 1280,
+      "height": 960,
+      "group": "comunidad",
+      "event": "torneo-portafolio"
+    },
+    {
+      "src": "/media/torneo-inauguracion-4.webp",
+      "caption": "Inauguración del Torneo de Portafolio FEN.",
+      "date": "",
+      "kind": "fotografía",
+      "width": 720,
+      "height": 1280,
+      "group": "comunidad",
+      "event": "torneo-portafolio"
+    },
+    {
+      "src": "/media/alpha-kickoff-1.webp",
+      "caption": "Participantes del kick-off del Alpha Trading Challenge 2026.",
+      "date": "5 de octubre de 2026",
+      "kind": "fotografía",
+      "width": 2560,
+      "height": 1920,
+      "group": "comunidad",
+      "event": "alpha"
+    },
+    {
+      "src": "/media/alpha-kickoff-2.webp",
+      "caption": "Panel del Alpha Trading Challenge 2026.",
+      "date": "5 de octubre de 2026",
+      "kind": "fotografía",
+      "width": 1920,
+      "height": 1280,
+      "group": "comunidad",
+      "event": "alpha"
+    },
+    {
+      "src": "/media/alpha-kickoff-3.webp",
+      "caption": "Encuentro durante el kick-off del Alpha Trading Challenge 2026.",
+      "date": "5 de octubre de 2026",
+      "kind": "fotografía",
+      "width": 2560,
+      "height": 3413,
+      "group": "comunidad",
+      "event": "alpha"
+    }
+  ]
+}

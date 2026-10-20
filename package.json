@@ -1,0 +1,25 @@
+{
+  "name": "minimalist-portfolio-json",
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "7.4.0",
+    "hotkeypad": "1.0.2",
+    "photoswipe": "^5.4.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "typescript": "6.0.3"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
