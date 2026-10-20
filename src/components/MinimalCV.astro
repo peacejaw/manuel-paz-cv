@@ -1,0 +1,37 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Hero from '@/components/sections/Hero.astro'
+import About from '@/components/sections/About.astro'
+import Experience from '@/components/sections/Experience.astro'
+import Education from '@/components/sections/Education.astro'
+import Projects from '@/components/sections/Projects.astro'
+import Skills from '@/components/sections/Skills.astro'
+import KeyboardManager from '@/components/KeyboardManager.astro'
+import StoryDialogs from '@/components/StoryDialogs.astro'
+import 'photoswipe/style.css'
+import '@/styles/details.css'
+const lang='es'
+---
+<Layout title="Manuel Paz | Curriculum vitae" lang={lang}>
+  <main>
+    <div class="toolbar no-print"><a href="/docs/Manuel-Paz-CV.pdf" download>Descargar PDF</a><button type="button" data-print>Imprimir</button></div>
+    <Hero lang={lang}/>
+    <About lang={lang}/>
+    <Experience lang={lang}/>
+    <Education lang={lang}/>
+    <Projects lang={lang}/>
+    <Skills lang={lang}/>
+  </main>
+  <StoryDialogs/>
+  <KeyboardManager lang={lang}/>
+  <script src="@/scripts/details.ts"></script>
+</Layout>
+<style>
+  /* Page grid, section order and spacing retained from Midudev's template. */
+  main { position: relative; display: flex; flex-direction: column; gap: 3.5rem; max-width: calc(var(--label-col) + var(--gutter) + var(--content-col)); margin: 0 auto; padding: 6rem 1.5rem 8rem; }
+  .toolbar { position: absolute; top: 1.5rem; right: 1.5rem; display: flex; align-items: center; gap: 1.25rem; font-size: .75rem; color: var(--color-muted); }
+  .toolbar button { border: 0; background: none; padding: 0; cursor: pointer; }
+  .toolbar a:hover,.toolbar button:hover { color: var(--color-ink); text-decoration: underline; text-underline-offset: .2em; }
+  @media screen and (width <= 720px) { main { gap: 2.75rem; padding: 4.5rem 1.25rem 7rem; } .toolbar { top: 1.125rem; right: 1.25rem; } }
+  @media print { main { gap: 1.5rem; max-width: none; padding: 0; } }
+</style>

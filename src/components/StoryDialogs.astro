@@ -1,0 +1,15 @@
+---
+import cv from '@cv'
+type Video = { src: string; poster: string; caption: string }
+---
+{cv.timeline.map(item=><dialog class="case-dialog" id={`case-${item.id}`} aria-labelledby={`case-title-${item.id}`}>
+  <div class="dialog-top"><span>{item.period}</span><button type="button" class="close-dialog" data-close aria-label="Cerrar experiencia">×</button></div>
+  <article class="case-content"><h2 id={`case-title-${item.id}`}>{item.title}</h2>{item.role!==item.title&&<p class="case-role">{item.role}</p>}<div class="case-text">{item.paragraphs.map(p=><p>{p}</p>)}</div>
+    {item.metrics.length>0&&<div class="case-metrics">{item.metrics.map(m=><div><strong>{m.value}</strong><span>{m.label}</span></div>)}</div>}
+    {item.highlights.length>0&&<><h3>Mi experiencia</h3><ul class="case-highlights">{item.highlights.map(h=><li>{h}</li>)}</ul></>}
+    {item.related.length>0&&<div class="related-experiences"><h3>{item.id==='fig'?'Actividades de FEN Investment Group':'Más sobre esta etapa'}</h3><ul>{item.related.map(id=>{const related=cv.timeline.find(entry=>entry.id===id)!;return <li><button type="button" data-case={id} aria-haspopup="dialog" aria-controls={`case-${id}`}><span><strong>{related.role}</strong><small>{related.period}</small></span><span aria-hidden="true">+</span></button></li>})}</ul></div>}
+    {item.media.length>0&&<div class="case-photos">{item.media.map((media,i)=><figure><a class="media-open" href={media.src} target="_blank" rel="noopener noreferrer" data-media data-group={item.id} data-index={i} aria-label={`Ampliar imagen: ${media.caption}`}><img src={media.src.replace('.webp','-small.webp')} alt={media.caption} loading="lazy" width={media.width} height={media.height}/></a><figcaption>{media.caption}{media.date&&<><br/>{media.date}</>}</figcaption></figure>)}</div>}
+    {item.videos.length>0&&<div class="case-videos"><h3>Video de la actividad</h3>{item.videos.map((video:Video)=><figure><video controls playsinline preload="none" poster={video.poster} aria-label={video.caption}><source src={video.src} type="video/mp4"/>Tu navegador no puede reproducir este video.</video><figcaption>{video.caption}</figcaption></figure>)}</div>}
+    {item.links.length>0&&<div class="case-links">{item.links.map(link=><a class="text-link" href={link.url} target="_blank" rel="noopener noreferrer">{link.label}<span aria-hidden="true">↗</span></a>)}</div>}
+  </article>
+</dialog>)}

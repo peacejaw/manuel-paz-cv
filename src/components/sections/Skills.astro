@@ -1,0 +1,117 @@
+---
+import Section from "../Section.astro"
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import TypeScript from "@/icons/type.astro"
+import React from "@/icons/react.astro"
+import Node from "@/icons/node.astro"
+import MySQL from "@/icons/sql.astro"
+import Git from "@/icons/git.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Tailwind from "@/icons/tailwind.astro"
+import Next from "@/icons/next.astro"
+import Swift from "@/icons/swift.astro"
+import SwiftUI from "@/icons/swiftui.astro"
+import Kotlin from "@/icons/kotlin.astro"
+import Flutter from "@/icons/flutter.astro"
+import { getCV, useTranslations, type Lang } from "@/i18n"
+import Docker from "@/icons/docker.astro"
+import Redis from "@/icons/redis.astro"
+import Terraform from "@/icons/terraform.astro"
+import AWS from "@/icons/aws.astro"
+import MongoDB from "@/icons/mongo.astro"
+import Deno from "@/icons/deno.astro"
+import GraphQL from "@/icons/graphql.astro"
+import Stripe from "@/icons/stripe.astro"
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Swift,
+  SwiftUI,
+  Kotlin,
+  Flutter,
+  Docker,
+  Redis,
+  Terraform,
+  AWS,
+  MongoDB,
+  Deno,
+  GraphQL,
+  Stripe,
+}
+
+const { lang } = Astro.props as { lang: Lang }
+const { skills } = getCV(lang)
+const t = useTranslations(lang)
+---
+
+<Section title={t("skills.title")}>
+  <ul>
+    {
+      skills.map(({ name, keywords }) => {
+        const iconName = name === "Next.js" ? "Next" : name
+        const Icon = SKILLS_ICONS[iconName]
+
+        return (
+          <li>
+            {Icon && <Icon />}
+            <span>{name}</span>
+            <small>{keywords.join(", ")}</small>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    gap: 0.875rem;
+  }
+
+  li {
+    display: block;
+    padding: 0;
+    color: var(--color-ink);
+    background: none;
+    border-radius: 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+
+  li :global(svg) {
+    flex: none;
+    width: 0.875rem;
+    height: 0.875rem;
+    color: var(--color-text);
+  }
+
+  small {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  @media print {
+    li {
+      padding: 0;
+      background: none;
+      border: 0;
+    }
+  }
+</style>

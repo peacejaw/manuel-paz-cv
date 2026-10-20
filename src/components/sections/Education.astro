@@ -1,0 +1,39 @@
+---
+import Section from "../Section.astro"
+import Entry from "../Entry.astro"
+
+import { getCV, useTranslations, type Lang } from "@/i18n"
+
+const { lang } = Astro.props as { lang: Lang }
+const { education } = getCV(lang)
+const t = useTranslations(lang)
+---
+
+<Section title={t("education.title")}>
+  <ul>
+    {
+      education.map(({ institution, url, startDate, endDate, area }) => (
+        <li>
+          <Entry
+            lang={lang}
+            title={institution}
+            url={url}
+            linkTitle={t("experience.link", { name: institution })}
+            subtitle={area}
+            startDate={startDate}
+            endDate={endDate}
+            caseId="universidad"
+          />
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+</style>

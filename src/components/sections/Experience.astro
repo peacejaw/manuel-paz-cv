@@ -1,0 +1,46 @@
+---
+import Section from "../Section.astro"
+import Entry from "../Entry.astro"
+
+import { getCV, useTranslations, type Lang } from "@/i18n"
+
+const { lang } = Astro.props as { lang: Lang }
+const { work } = getCV(lang)
+const t = useTranslations(lang)
+---
+
+<Section title={t("experience.title")}>
+  <ul>
+    {
+      work.map(({ name, startDate, endDate, position, summary, url, caseId }) => (
+        <li>
+          <Entry
+            lang={lang}
+            title={name}
+            url={url}
+            linkTitle={t("experience.link", { name })}
+            subtitle={position}
+            startDate={startDate}
+            endDate={endDate}
+            summary={summary}
+            caseId={caseId}
+          />
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  @media print {
+    ul {
+      gap: 1.25rem;
+    }
+  }
+</style>
