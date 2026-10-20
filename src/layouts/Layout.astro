@@ -1,7 +1,7 @@
 ---
 import "@/styles/fonts.css"
 import fontLatin from "@/assets/fonts/portfolio-sans-latin.woff2?url"
-import { LANGUAGES, getCV, getLangPath, type Lang } from "@/i18n"
+import { LANGUAGES, getCV, getLangPath, withBase, type Lang } from "@/i18n"
 
 interface Props {
   title: string
@@ -30,7 +30,7 @@ const alternates = Object.keys(LANGUAGES) as Lang[]
     <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
     <link
       rel="preload"
       href={fontLatin}
