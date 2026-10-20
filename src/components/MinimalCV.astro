@@ -1,5 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro'
+import { withBase } from '@/i18n'
 import Hero from '@/components/sections/Hero.astro'
 import About from '@/components/sections/About.astro'
 import Experience from '@/components/sections/Experience.astro'
@@ -14,7 +15,7 @@ const lang='es'
 ---
 <Layout title="Manuel Paz | Curriculum vitae" lang={lang}>
   <main>
-    <div class="toolbar no-print"><a href="/docs/Manuel-Paz-CV.pdf" download>Descargar PDF</a><button type="button" data-print>Imprimir</button></div>
+    <div class="toolbar no-print"><a href={withBase("/docs/Manuel-Paz-CV.pdf")} download>Descargar PDF</a><button type="button" data-print>Imprimir</button></div>
     <Hero lang={lang}/>
     <About lang={lang}/>
     <Experience lang={lang}/>
