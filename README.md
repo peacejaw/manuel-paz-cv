@@ -38,7 +38,11 @@ Cada imagen tiene una versión completa y una miniatura terminada en `-small.web
 
 El proyecto genera una web estática mediante `pnpm build`. Puede alojarse en un servicio compatible con sitios Astro estáticos, indicando `dist` como carpeta de salida.
 
-Subir estos archivos a un repositorio guarda el código en GitHub. GitHub Pages requiere configurar su publicación y la ruta base del repositorio por separado.
+GitHub Pages: https://peacejaw.github.io/manuel-paz-cv/
+
+En Settings > Pages, selecciona GitHub Actions como Source y deja Custom domain vacío. El flujo `.github/workflows/deploy.yml` compila con Node.js 24 y pnpm 11.25.0 y publica automáticamente cada actualización de `main`.
+
+Las rutas de imágenes, galerías, fuentes y PDF respetan la base `/manuel-paz-cv`. Para usar un dominio propio en el futuro, actualiza `site`, elimina `base` en `astro.config.mjs` y actualiza `basics.url` en `cv.json`.
 
 ## Base y licencias
 
