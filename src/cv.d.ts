@@ -43,6 +43,7 @@ interface Work {
   name: string
   position: string
   url: string
+  links?: Array<{ label: string; url: string }>
   startDate: DateStr
   endDate: DateStr | null
   summary: string
