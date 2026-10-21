@@ -11,9 +11,10 @@ interface Props {
   endDate: string | null
   summary?: string
   caseId?: string
+  links?: { label: string; url: string }[]
 }
 
-const { lang, title, url, linkTitle, subtitle, startDate, endDate, summary, caseId } =
+const { lang, title, url, linkTitle, subtitle, startDate, endDate, summary, caseId, links = [] } =
   Astro.props
 const t = useTranslations(lang)
 
@@ -58,6 +59,17 @@ const shortMonth = (date: string) => new Intl.DateTimeFormat(lang, { month: "sho
   </header>
   <p class="subtitle">{subtitle}</p>
   {summary && <p class="summary">{summary}</p>}
+  {links.length > 0 && (
+    <ul class="entry-links">
+      {links.map(link => (
+        <li>
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
+            {link.label}<span aria-hidden="true"> ↗</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
 </article>
 
 <style>
@@ -122,6 +134,26 @@ const shortMonth = (date: string) => new Intl.DateTimeFormat(lang, { month: "sho
     max-width: var(--content-col);
     margin-top: 0.5rem;
     font-size: 0.9375rem;
+  }
+
+  .entry-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .entry-links a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-rule);
+    text-underline-offset: 0.2em;
+    overflow-wrap: anywhere;
+  }
+
+  .entry-links a:hover {
+    color: var(--color-ink);
+    text-decoration-color: currentColor;
   }
 
   [data-title] {
